@@ -20,9 +20,7 @@
 		"node": ">=8"
 	},
 	"scripts": {
-		"test": "xo && ava && tsd",
-		"build": "swift build --configuration=release && mv .build/release/active-win main",
-		"prepublishOnly": "npm run build"
+		"test": "xo && ava && tsd"
 	},
 	"files": [
 		"index.js",
