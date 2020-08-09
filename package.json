@@ -1,9 +1,15 @@
 {
-	"name": "active-win",
+	"name": "@winstrike/active-win",
 	"version": "6.1.0",
 	"description": "Get metadata about the active window (title, id, bounds, owner, URL, etc). Works on macOS, Linux, Windows.",
 	"license": "MIT",
-	"repository": "sindresorhus/active-win",
+	"repository": {
+    "type": "git",
+    "url": "https://github.com/winstrike/active-win.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
 	"funding": "https://github.com/sponsors/sindresorhus",
 	"author": {
 		"name": "Sindre Sorhus",
